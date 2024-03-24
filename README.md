@@ -1,4 +1,3 @@
-README FILE
 # FastAPI Task Management Project
 
 This is a simple FastAPI project for managing tasks. It provides CRUD (Create, Read, Update, Delete) operations for tasks.
