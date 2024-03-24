@@ -37,14 +37,14 @@ Example:
 
     curl -X POST "http://localhost:8000/tasks/" -H "Content-Type: application/json" -d '{"id": 1, "title": "Complete assignment", "description": "Finish the FastAPI project", "completed": false}'
 
-# II. Read Tasks
+## II. Read Tasks
 URL: /tasks/ <br>
 Method: GET <br>
 Description: Retrieve all tasks. <br>
 Example: <br>
 
     curl -X GET "http://localhost:8000/tasks/"
-# III. Update Task
+## III. Update Task
 URL: /tasks/{task_id} <br>
 Method: PUT <br>
 Description: Update an existing task. <br>
@@ -62,7 +62,7 @@ Example:
     curl -X PUT "http://localhost:8000/tasks/0" -H "Content-Type: application/json" -d '{"id": 0, "title": "Updated task", "description": "Updated description", "completed": true}'
 
 
-# IV. Delete Task
+## IV. Delete Task
 URL: /tasks/{task_id} <br>
 Method: DELETE <br>
 Description: Delete an existing task. <br>
